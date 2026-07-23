@@ -1,0 +1,14 @@
+{
+    "timestamp": "2026-07-23T10:42:02",
+    "model": "llama3.2:1b",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "location_input": "Antarctic Science Station in Winter (perpetual night)",
+    "response": "ENEMY: A pack of 5 polar bears, attracted to the station's energy signatures\nHAZARD: The Antarctic landscape, frozen and treacherous with limited visibility\nREWARD: Access to the top-secret research lab containing valuable data on climate change\nENCOUNTER: A lone researcher, stranded in the station due to a sudden blizzard",
+    "measured_response_seconds": 7.754695899988292,
+    "ollama_total_seconds": 5.6961889,
+    "model_load_seconds": 5.170525,
+    "prompt_tokens": 74,
+    "generated_tokens": 71,
+    "generation_seconds": 0.481176,
+    "tokens_per_second": 147.5551565331604
+}
