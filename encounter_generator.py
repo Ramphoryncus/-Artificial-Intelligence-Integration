@@ -16,6 +16,28 @@ def nanoseconds_to_seconds(value: int) -> float:
     """Convert Ollama's nanosecond duration values into seconds."""
     return value / 1_000_000_000
 
+def normalize_headings(text: str) -> str:
+    """Standardise encounter headings and spacing."""
+
+    headings = ["ENEMY", "HAZARD", "REWARD", "ENCOUNTER"]
+
+    cleaned = text.strip()
+
+    for heading in headings:
+        variants = [
+            f"{heading}:",
+            f"{heading.title()}:",
+            f"{heading.lower()}:",
+        ]
+
+        for variant in variants:
+            cleaned = cleaned.replace(
+                variant,
+                f"\n\n{heading}:"
+            )
+
+    return cleaned.strip()
+    
 
 def generate_encounter(location: str) -> dict:
     """Ask the local model to generate a small game encounter."""
@@ -94,7 +116,7 @@ Keep the complete response below 200 words.
         "model": result.get("model", MODEL_NAME),
         "platform": platform.platform(),
         "location_input": location,
-        "response": result.get("response", "").strip(),
+        "response": normalize_headings(result.get("response", "")),
         "measured_response_seconds": measured_seconds,
         "ollama_total_seconds": nanoseconds_to_seconds(
             result.get("total_duration", 0)
