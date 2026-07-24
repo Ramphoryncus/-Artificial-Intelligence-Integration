@@ -1,0 +1,14 @@
+{
+    "timestamp": "2026-07-24T16:15:46",
+    "model": "llama3.2:1b",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "location_input": "Egypt, the Great pyramid circa 3000BC",
+    "response": "ENEMY: \n \nMummified Scarab Beings - Fungal growths of Lichen infest ancient stone structures, releasing noxious spores that weaken players.\n\n\n\n\nHAZARD:\n \nSwirling Vortex of Dust - A dense, impenetrable cloud of fine dust reduces visibility to mere feet.\n\n\n\n\nREWARD:\n \nTreasure: Golden Ankh with protective amulet granting increased resistance to poison and decay. Players may also claim the knowledge of local hermits who have survived for centuries.\n\n\n\nENCOUNTER:\n \nThe player is awoken by a chorus of unearthly whispers emanating from ancient stone structures, as Mummified Scarab Beings stir from their slumber. The swarm descends upon them, wrapping tendrils around the player's ankles to immobilize them. Players must navigate through the dense cloud of dust while avoiding deadly fungal spores and hostile creatures like Giant Lizards.",
+    "measured_response_seconds": 3.2585289000126068,
+    "ollama_total_seconds": 1.2125237,
+    "model_load_seconds": 0.3314569,
+    "prompt_tokens": 210,
+    "generated_tokens": 183,
+    "generation_seconds": 0.862951,
+    "tokens_per_second": 212.0630255947325
+}
