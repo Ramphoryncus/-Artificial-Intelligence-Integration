@@ -1,0 +1,14 @@
+{
+    "timestamp": "2026-07-24T15:22:10",
+    "model": "llama3.2:1b",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "location_input": "Antarctic Science Station in Winter (perpetual night) studying sentient radioactive penguins",
+    "response": "ENEMY: Glaciatorus radiatus\nA sentient, radioactive penguin with a twisted, organic body that seems to shift and writhe like a living glacier. Its frozen skin crackles with an otherworldly energy, illuminating dark crevices in the Antarctic ice.\n\nHAZARD: Polar Vortex Tempests - a sudden, intense storm of biting cold air that rapidly lowers temperatures and increases wind speeds, reducing visibility and making it difficult for creatures to navigate.\nReward: Frozen Samples - a cache of radioactive penguin specimens recovered from the icy terrain, which grant valuable insight into the secrets of Antarctic ecosystems.\n\nENCOUNTER:\nThe player is awoken in their research station by a disturbing scream emanating from the frozen storage rooms. As they investigate, they're confronted by Glaciatorus radiatus, its frosty body undulating towards them like a predator. The storm rages around it, threatening to engulf the researchers. The creature's frozen skin crackles with energy, attempting to freeze and disorient the player. In the chaos, the player discovers Frozen Samples scattered throughout the storage rooms, containing genetic material and biological samples that could hold the key to understanding Glaciatorus' twisted biology.",
+    "measured_response_seconds": 3.4238191999902483,
+    "ollama_total_seconds": 1.3416973,
+    "model_load_seconds": 0.2824459,
+    "prompt_tokens": 152,
+    "generated_tokens": 246,
+    "generation_seconds": 1.031781,
+    "tokens_per_second": 238.42268853564855
+}
