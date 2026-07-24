@@ -1,0 +1,14 @@
+{
+    "timestamp": "2026-07-24T15:43:50",
+    "model": "llama3.2:1b",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "location_input": "Kansas in tornado season",
+    "response": "ENEMY:\nA massive EF5 tornado has touched down in the small town of Wichita Falls, Kansas. The twister is ravaging homes and businesses, causing widespread destruction.\n\nHAZARD:\nThe tornado's roar is deafening as it unleashes a maelstrom of debris and destruction upon the town. The storm surge is intense, with powerful gusts threatening to rip roofs off buildings and uproot trees.\n\nREWARD:\nSurviving the tornado is a rare blessing, but one that comes at a terrible cost. The townsfolk have been scattered, and many are injured or killed in the chaos. The player must navigate through the wreckage to find any remaining survivors and scavenge for supplies.\n\nENCOUNTER:\nAs the player makes their way through the rubble-strewn streets, they come across a lone figure huddled in a doorway. The figure slowly gets up and blocks the player's path, revealing a weathered face with sunken eyes. The figure mutters something incoherent, but the player can sense a deep desperation emanating from it.",
+    "measured_response_seconds": 9.023503600008553,
+    "ollama_total_seconds": 6.9497531,
+    "model_load_seconds": 5.4216131,
+    "prompt_tokens": 204,
+    "generated_tokens": 216,
+    "generation_seconds": 1.485364,
+    "tokens_per_second": 145.41890068696966
+}

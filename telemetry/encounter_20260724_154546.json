@@ -1,0 +1,14 @@
+{
+    "timestamp": "2026-07-24T15:45:46",
+    "model": "llama3.2:1b",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "location_input": "Kansas in tornado season",
+    "response": "ENEMY:\nA shadowy figure emerges from the tornado's debris-laden cloud. The figure is tall and gaunt, its skin pulled taut over bony shoulders like a worn cloak. Its face is deathly pale, with sunken eyes that burn with an otherworldly green fire.\n\nHAZARD:\nThe figure lunges at the player, its long arms coiled like whips as it attempts to strike from the shadows.\n\nREWARD:\nUpon defeat, the figure dissipates into mist, leaving behind a small, glowing crystal embedded in the ground. The crystal pulsates with an eerie blue light, imbuing the player's surroundings with a faint magical aura.\n\nENCOUNTER:\nThe player stumbles backward as the figure unleashes a burst of cold air, sending them flying across the tornado-torn landscape.",
+    "measured_response_seconds": 3.7119118999980856,
+    "ollama_total_seconds": 1.6376271,
+    "model_load_seconds": 0.4665585,
+    "prompt_tokens": 204,
+    "generated_tokens": 166,
+    "generation_seconds": 1.133255,
+    "tokens_per_second": 146.48071263749114
+}
