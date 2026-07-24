@@ -21,9 +21,14 @@ def generate_encounter(location: str) -> dict:
     """Ask the local model to generate a small game encounter."""
 
     prompt = f"""
-Create a concise game encounter for this location:
+Create a concise and geographically plausible game encounter for this location:
 
 {location}
+
+Use creatures, weather, hazards, and environmental details that are
+appropriate for the stated location. Do not include animals or features
+that would not normally exist there unless explicitly described as
+fictional, escaped, genetically modified, or artificially introduced.
 
 Return exactly these headings:
 ENEMY:
@@ -31,7 +36,9 @@ HAZARD:
 REWARD:
 ENCOUNTER:
 
-Keep the complete response below 140 words.
+The ENCOUNTER section should briefly describe how the player experiences the enemy, hazard, and reward.
+
+Keep the complete response below 200 words.
 """
 
     request_data = {
