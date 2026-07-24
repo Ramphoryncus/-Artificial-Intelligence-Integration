@@ -36,6 +36,25 @@ HAZARD:
 REWARD:
 ENCOUNTER:
 
+Use exactly this format and capitalization:
+
+ENEMY:
+<enemy description>
+
+HAZARD:
+<hazard description>
+
+REWARD:
+<reward description>
+
+ENCOUNTER:
+<encounter description>
+
+Requirements:
+- Each heading must be uppercase exactly as shown.
+- Put one blank line before every heading.
+- Do not create additional headings.
+
 The ENCOUNTER section should briefly describe how the player experiences the enemy, hazard, and reward.
 
 Keep the complete response below 200 words.
