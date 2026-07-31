@@ -69,7 +69,7 @@ An earlier run took 7.755 seconds and included a model load time of 5.171 second
 
 ## Image: Generated Encounter
 
-![Generated encounter terminal output](Media/GeneratedEncounter.png)
+![Generated encounter terminal output](media/GeneratedEncounter.png)
 
 This screenshot should show the entered location and the complete AI-generated encounter.
 
