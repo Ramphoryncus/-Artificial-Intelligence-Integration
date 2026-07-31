@@ -75,13 +75,13 @@ This screenshot should show the entered location and the complete AI-generated e
 
 ## Image: Telemetry Output
 
-![AI generation telemetry](Media/TelemetryOutput.png)
+![AI generation telemetry](media/TelemetryOutput.png)
 
 This screenshot should show the model name, response time, loading time, token counts, and generation speed.
 
 ## Image: Exported JSON
 
-![Exported telemetry JSON file](Media/TelemetryJSON.png)
+![Exported telemetry JSON file](media/TelemetryJSON.png)
 
 This screenshot should show one of the timestamped telemetry files open in a text editor or IDE.
 
