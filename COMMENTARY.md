@@ -71,19 +71,19 @@ An earlier run took 7.755 seconds and included a model load time of 5.171 second
 
 ![Generated encounter terminal output](media/GeneratedEncounter.png)
 
-This screenshot should show the entered location and the complete AI-generated encounter.
+This screenshot shows the entered location and the complete AI-generated encounter.
 
 ## Image: Telemetry Output
 
 ![AI generation telemetry](media/TelemetryOutput.png)
 
-This screenshot should show the model name, response time, loading time, token counts, and generation speed.
+This screenshot shows the model name, response time, loading time, token counts, and generation speed.
 
 ## Image: Exported JSON
 
 ![Exported telemetry JSON file](media/TelemetryJSON.png)
 
-This screenshot should show one of the timestamped telemetry files open in a text editor or IDE.
+This screenshot shows one of the timestamped telemetry files open in Visual Studio.
 
 ## Benefits to Game Development
 
@@ -95,7 +95,7 @@ Running the model locally also avoids sending prompts to an external cloud servi
 
 ## Limitations and Ethical Considerations
 
-The model can produce inaccurate or inappropriate content. In an early test, it placed polar bears in Antarctica. Polar bears naturally live in the Arctic, meaning the response sounded plausible but was factually incorrect.
+The model can produce inaccurate or inappropriate content. In an early accuracy test, it placed polar bears in Antarctica. Polar bears naturally live in the Arctic, meaning the response sounded plausible but was factually incorrect.
 
 This is an example of an AI hallucination. Stronger prompting reduced some errors but could not guarantee factual accuracy. Human review is therefore required before generated content is used in a game.
 
